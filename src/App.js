@@ -149,7 +149,7 @@ const Keyboard = ({ play }) => {
 };
 
 const App = () => {
-  const [soundName, setSoundName] = React.useState("");
+  const [soundName, setSoundName] = React.useState("Press the key below");
 
   const play = (key, sound) => {
     const audio = document.getElementById(key);
